@@ -13,15 +13,19 @@ layout: default
 {% endfor %}
 
 {% include hero.html %}
-<section class="bg-primary-dark usa-section margin-bottom-0 padding-bottom-0">
+<section class="bg-primary-dark usa-section usa-section--dark margin-bottom-0 padding-bottom-0">
   <div class="grid-container">
-    <div class="display-flex flex-column flex-align-center">
-      <form id="data-search-form" class="usa-search usa-search--small desktop:width-tablet" role="search">
-        <label class="usa-sr-only" for="search-field">Search datasets by key words</label>
-        <input class="usa-input" id="search-field" type="search" name="search" placeholder="Search datsets by key words">
-        <button class="btn-link__primary-dark" type="submit">
-          <span class="usa-sr-only">Search</span>
-        </button>
+    <div class="display-flex flex-justify-center">
+      <form 
+        id="data-search-form" 
+        class="usa-search usa-search--small flex-align-center desktop:width-tablet" 
+        role="search"
+      >
+          <label for="search-field">Search datasets by key words</label>
+          <input class="usa-input" id="search-field" type="search" name="search">
+          <button class="btn-link__primary-dark" type="submit">
+            <span class="usa-sr-only">Search</span>
+          </button>
       </form>
     </div>
     {% include dch/dch__filters.html data=problem_statements %}

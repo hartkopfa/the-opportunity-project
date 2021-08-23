@@ -15,17 +15,11 @@ function testPSFilters (url) {
       .then($filterId => {
         if ($filterId !== 'all') {
           $filter.click()
-          cy.get('[name=data-set-card]:not(.pc-inactive)').each($card => {
-            cy.wrap($card)
-              .within($card => {
-                cy.get('.dataset__ps').should('include.text', $filterId)
-              })
+          cy.get('[name=data-set-card]:not(.pc-inactive) .dataset__ps').each($psList => {
+            cy.wrap($psList).should('include.text', $filterId)
           })
-          cy.get('[name=data-set-card].pc-inactive').each($card => {
-            cy.wrap($card)
-              .within($card => {
-                cy.get('.dataset__ps').should('not.include.text', $filterId)
-              })
+          cy.get('[name=data-set-card].pc-inactive .dataset__ps').each($psList => {
+            cy.wrap($psList).should('not.include.text', $filterId)
           })
         }
       })
@@ -70,7 +64,7 @@ describe.only('Filtering tests', () => {
   it('filters by tag on climate-smart page', () => {
     testPSFilters(pages[4])
   })
-  it.only('filters by PS on covid page', () => {
+  it('filters by PS on covid page', () => {
     testPSFilters(pages[3])
   })
 })

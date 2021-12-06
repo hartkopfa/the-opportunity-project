@@ -26,7 +26,7 @@ event-announcement:
     src: prize/top-grand-challenge-background-01.jpg  
     alt: Pointillism photo of a mountainside with evergreen trees
 
-timeline:
+<!-- timeline: 
   - text: Prize Opens on Challenge.gov
     subtitle:  July 1st, 2021
     items:
@@ -44,7 +44,7 @@ timeline:
   - text: Judging Process
     subtitle: November
   - text: Winners Announced
-    subtitle: December - January
+    subtitle: December - January -->
 
 about:
   title: How It All Started
@@ -81,12 +81,12 @@ judge-photo:
   alt: a man and woman handing a $20k check from The Opportunity Project to a woman on a stage
   caption: '2019 Prize Challenge winner Kristen Lewis of Measure of America receives her prize from Ron Jarmin, Acting Director of the U.S. Census Bureau and Suzette Kent, Former Federal Chief Information Officer'
 
-past-title: Past Prize Challenge
+past-title: Prize Challenge
 
 winners:
-  title: Past Winners
-  # subtext: '$100k awarded in The Opportunity Project’s inaugural Prize Challenge.<br/> 
-  # See [challenge.gov](https://www.challenge.gov/challenge/opportunity-project-prize/) for challenge details.'
+  title: 2021 Winners
+  # subtext: '$310k awarded in The Opportunity Project’s 2021 Open Data for Good Prize Challenge.<br/> 
+  # See [challenge.gov](https://www.challenge.gov/challenge/open-data-for-good-grand-challenge/) for challenge details.'
 
 ---
 
@@ -97,7 +97,7 @@ winners:
 <section class="grid-section margin-top-6 margin-bottom-15 padding-y-3 width-full maxw-full margin-x-0">
   <div class="maxw-tablet margin-x-auto">
 
-### What is It?
+<!-- ### What is It?
 {: .section-header }
 
 The Open Data for Good Grand Challenge is a set of cash and in-kind prizes for teams who have created high-impact digital tools that solve problems for the public.
@@ -105,32 +105,32 @@ The Open Data for Good Grand Challenge is a set of cash and in-kind prizes for t
 Please visit the official [challenge.gov posting]({{ page.challenge-gov }}) for the full rules and application requirements.
 
 [View the rules]({{ page.challenge-gov }}){: .btn-link .btn-link__primary-red .btn-link--small .margin-top-0 .margin-left-0}
-{: .margin-top-0 }
+{: .margin-top-0 } -->
 
-### What Can You Win?
-{: .section-header .margin-top-6 }
+<!-- ### What Can You Win?
+{: .section-header .margin-top-6 } -->
 
-Prizes range from $10,000 to $50,000 with additional prizes expected to be announced!  
+<!-- Prizes range from $10,000 to $50,000 with additional prizes expected to be announced!  
 We're looking for tools that fit into one of these categories:
 - Climate, Resilience, and the Natural Environment
 - Society, Economy, and the Built Environment
-- Health and COVID-19
+- Health and COVID-19 -->
 
-### What Do You Have To Do?
+<!-- ### What Do You Have To Do?
 {: .section-header .margin-top-6 }
 1. Create a product using the [TOP Product Development Toolkit](/product-development/toolkit/) or in a [TOP or TOPx Sprint](/sprints) between January 1st, 2020 and October 24th, 2021
 2. Attend an informational session (optional)
-3. Submit your application by the deadline via email and a short submission form
+3. Submit your application by the deadline via email and a short submission form -->
 
-Submissions are open from September 13, 2021 – October 24, 2021
-{: .usa-alert .usa-alert--warning .usa-alert--no-icon .padding-left-2 }
+<!-- Submissions are open from September 13, 2021 – October 24, 2021
+{: .usa-alert .usa-alert--warning .usa-alert--no-icon .padding-left-2 } -->
 
 <!-- Before you submit your application, please review the submission checklist.
 [Submission Checklist (.docx) &darr;]({{ page.submission-checklist }}){: download .btn-link .btn-link__secondary-red .btn-link--small .margin-top-2 .margin-left-0 } -->
 
-### Timeline
+<!-- ### Timeline
 {: .margin-top-6 .margin-bottom-0 }
-{% include process-list.html data=page.timeline %}
+{% include process-list.html data=page.timeline %} -->
 
 {::options parse_block_html="false" /}
 <figure>
